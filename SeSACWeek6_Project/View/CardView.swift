@@ -32,11 +32,12 @@ class CardView: UIView {
         view.frame = bounds //모서리 맞춰주기
         view.backgroundColor = .lightGray
         self.addSubview(view)
+        
+        //true로 나오는 이유: 인터페이스 기반으로 잡았으나 let view로 코드로 초기화 해주었기 때문에.
+        //true -> 오토레이아웃이 적용되는 관점보다 오토리사이징이 내부적으로 제약조건으로 처리가 됨.
+        
+        print(view.translatesAutoresizingMaskIntoConstraints)
     }
     
-//    // 코드 UI 초기화 구문
-//    override init(frame: CGRect) {
-//        <#code#>
-//    }
 }
     

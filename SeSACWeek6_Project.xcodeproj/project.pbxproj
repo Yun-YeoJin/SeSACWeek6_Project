@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE586DBE28A3307F009C7E02 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE586DBD28A3307F009C7E02 /* ReusableViewProtocol.swift */; };
+		AE586DC028A343DC009C7E02 /* TMDBAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE586DBF28A343DC009C7E02 /* TMDBAPIManager.swift */; };
 		AECAA3D528A08FED0080758C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAA3D428A08FED0080758C /* AppDelegate.swift */; };
 		AECAA3D728A08FED0080758C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAA3D628A08FED0080758C /* SceneDelegate.swift */; };
 		AECAA3D928A08FED0080758C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAA3D828A08FED0080758C /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE586DBD28A3307F009C7E02 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		AE586DBF28A343DC009C7E02 /* TMDBAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPIManager.swift; sourceTree = "<group>"; };
 		AECAA3D128A08FED0080758C /* SeSACWeek6_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek6_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECAA3D428A08FED0080758C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AECAA3D628A08FED0080758C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE586DBC28A33063009C7E02 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AE586DBD28A3307F009C7E02 /* ReusableViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		AECAA3C828A08FED0080758C = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 		AECAA3D328A08FED0080758C /* SeSACWeek6_Project */ = {
 			isa = PBXGroup;
 			children = (
+				AE586DBC28A33063009C7E02 /* Protocol */,
 				AECAA40B28A1DFE10080758C /* View */,
 				AECAA3D428A08FED0080758C /* AppDelegate.swift */,
 				AECAA3D628A08FED0080758C /* SceneDelegate.swift */,
@@ -119,6 +132,7 @@
 				AECAA3F728A0949A0080758C /* EndPoint.swift */,
 				AECAA3F928A0950F0080758C /* URL+Extension.swift */,
 				AECAA3FB28A0A7890080758C /* KakaoAPIManager.swift */,
+				AE586DBF28A343DC009C7E02 /* TMDBAPIManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -230,6 +244,8 @@
 				AECAA41128A1E62B0080758C /* CardView.swift in Sources */,
 				AECAA3F428A091100080758C /* APIKey.swift in Sources */,
 				AECAA40D28A1E0310080758C /* SeSACButton.swift in Sources */,
+				AE586DC028A343DC009C7E02 /* TMDBAPIManager.swift in Sources */,
+				AE586DBE28A3307F009C7E02 /* ReusableViewProtocol.swift in Sources */,
 				AECAA3FC28A0A78A0080758C /* KakaoAPIManager.swift in Sources */,
 				AECAA3D728A08FED0080758C /* SceneDelegate.swift in Sources */,
 				AECAA3FA28A0950F0080758C /* URL+Extension.swift in Sources */,
