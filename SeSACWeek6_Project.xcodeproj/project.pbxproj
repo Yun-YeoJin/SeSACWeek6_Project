@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AE586DBE28A3307F009C7E02 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE586DBD28A3307F009C7E02 /* ReusableViewProtocol.swift */; };
 		AE586DC028A343DC009C7E02 /* TMDBAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE586DBF28A343DC009C7E02 /* TMDBAPIManager.swift */; };
+		AE5D57AD28A4938F0012E81A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5D57AC28A4938F0012E81A /* MapViewController.swift */; };
+		AE5D57AF28A4B4480012E81A /* sampleCode_220811.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5D57AE28A4B4480012E81A /* sampleCode_220811.swift */; };
 		AECAA3D528A08FED0080758C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAA3D428A08FED0080758C /* AppDelegate.swift */; };
 		AECAA3D728A08FED0080758C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAA3D628A08FED0080758C /* SceneDelegate.swift */; };
 		AECAA3D928A08FED0080758C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAA3D828A08FED0080758C /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		AE586DBD28A3307F009C7E02 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
 		AE586DBF28A343DC009C7E02 /* TMDBAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPIManager.swift; sourceTree = "<group>"; };
+		AE5D57AC28A4938F0012E81A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AE5D57AE28A4B4480012E81A /* sampleCode_220811.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sampleCode_220811.swift; sourceTree = "<group>"; };
 		AECAA3D128A08FED0080758C /* SeSACWeek6_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek6_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECAA3D428A08FED0080758C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AECAA3D628A08FED0080758C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,8 +111,10 @@
 				AECAA3D628A08FED0080758C /* SceneDelegate.swift */,
 				AECAA3D828A08FED0080758C /* ViewController.swift */,
 				AECAA3DA28A08FED0080758C /* Main.storyboard */,
+				AE5D57AC28A4938F0012E81A /* MapViewController.swift */,
 				AEEECB9128A1F63700CD70AA /* MainViewController.swift */,
 				AECAA3FD28A0ABEE0080758C /* ClosureViewController.swift */,
+				AE5D57AE28A4B4480012E81A /* sampleCode_220811.swift */,
 				AECAA3DD28A08FEF0080758C /* Assets.xcassets */,
 				AECAA3DF28A08FEF0080758C /* LaunchScreen.storyboard */,
 				AECAA3E228A08FEF0080758C /* Info.plist */,
@@ -247,8 +253,10 @@
 				AE586DC028A343DC009C7E02 /* TMDBAPIManager.swift in Sources */,
 				AE586DBE28A3307F009C7E02 /* ReusableViewProtocol.swift in Sources */,
 				AECAA3FC28A0A78A0080758C /* KakaoAPIManager.swift in Sources */,
+				AE5D57AF28A4B4480012E81A /* sampleCode_220811.swift in Sources */,
 				AECAA3D728A08FED0080758C /* SceneDelegate.swift in Sources */,
 				AECAA3FA28A0950F0080758C /* URL+Extension.swift in Sources */,
+				AE5D57AD28A4938F0012E81A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

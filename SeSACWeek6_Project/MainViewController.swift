@@ -59,12 +59,12 @@ class MainViewController: UIViewController {
         TMDBAPIManager.shared.requestImage { value in
             dump(value)
             //1. 네트워크 통신 => 2. 배열 생성 (episodeList) => 3. 배열 담기 => 4.뷰에 표현 => 5. TableView 갱신
-            self.episodeList = value
-            self.mainTableView.reloadData()
             
-            
+            DispatchQueue.main.async {
+                self.episodeList = value
+                self.mainTableView.reloadData()
+            }
         }
-        
     }
     
     
@@ -162,3 +162,5 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
         return layout
     }
 }
+
+
